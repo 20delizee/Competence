@@ -1,0 +1,265 @@
+h1{
+    text-align: center;
+    background-color: #BFC1C1;
+    border: solid 1px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+	display: flex;
+	background-color: #BFC1C1;
+    border: solid 1px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+.Box{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.insidebox{
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 100%;
+}
+.insidebox{
+    padding: auto;
+    margin: auto;
+}
+.gauche{
+	display: inline-flex;
+	background-color: #BFC1C1;
+    border: solid 1px;  
+    width: 25%;  
+    margin-right: 1em;
+}
+.droite{
+	display: inline-flex;
+	background-color: #BFC1C1;
+    border: solid 1px;
+    width: 74%;
+}
+
+.centre{
+    text-align: center;
+	display: flex;
+	background-color: #BFC1C1;
+    border: solid 1px;
+    padding: 5%;
+    justify-content: center;
+    width: 30%;
+    margin-left: 30%;
+}
+.encadre {
+    border: solid 1px;
+    padding: 2%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.partie {
+    display: flex;
+    background-color: #6d7575;
+    border-radius: 1em;
+    padding: 3%;
+}
+.partieg {
+    display: inline;
+    float: left;
+    width: 70%;
+}
+.partied{
+    display: inline;
+    float: right;
+    width: 30%;
+    justify-content: center;
+    vertical-align: center;
+}
+.button {
+  position: relative;
+  background-color: #303531;
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 1;
+  transition: 0,3s;
+  transform: rotate();
+}
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+     border-collapse: collapse;
+    width:50%;
+}
+td { 
+border-width:1px;
+border-style:solid; 
+
+width:50%;
+}
+.alert {
+    position:relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: .25rem;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: green;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.icon-btn {
+width: 50px;
+height: 50px;
+border: 1px solid #cdcdcd;
+background: white;
+border-radius: 25px;
+overflow: hidden;
+position: relative;
+transition: width 0.2s ease-in-out;
+}
+.add-btn:hover {
+width: 110px;
+}
+.add-btn::before,
+.add-btn::after {
+transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+content: "";
+position: absolute;
+height: 4px;
+width: 10px;
+top: calc(50% - 2px);
+background: black;
+}
+.add-btn::after {
+right: 14px;
+overflow: hidden;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+.add-btn::before {
+left: 14px;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+}
+.icon-btn:focus {
+outline: none;
+}
+.btn-txt {
+opacity: 0;
+transition: opacity 0.2s;
+}
+.add-btn:hover::before,
+.add-btn:hover::after {
+width: 4px;
+border-radius: 2px;
+}
+.add-btn:hover .btn-txt {
+opacity: 1;
+}
+.add-icon::after,
+.add-icon::before {
+transition: all 0.2s ease-in-out;
+content: "";
+position: absolute;
+height: 20px;
+width: 2px;
+top: calc(50% - 10px);
+background: black;
+overflow: hidden;
+}
+.add-icon::before {
+left: 22px;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+}
+.add-icon::after {
+right: 22px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+.add-btn:hover .add-icon::before {
+left: 15px;
+height: 4px;
+top: calc(50% - 2px);
+}
+.add-btn:hover .add-icon::after {
+right: 15px;
+height: 4px;
+top: calc(50% - 2px);
+}
+.add {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.valider {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.menuG{
+    padding: 1%;
+    margin: 1%;
+    margin-left: 25%;
+    width: 50%;
+    justify-content: space-between;
+}
+.connexion{
+    width: 90%;
+    padding: 5%;
+    text-align:left;
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    margin: 3%;
+    background: #000; 
+  }
+  video { 
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+   background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+  .stopfade { 
+     opacity: .5;
+  }
